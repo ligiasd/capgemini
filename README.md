@@ -16,9 +16,10 @@ Saída:
           *****  
         ******  
 
-Dados à informar na classe Program(localizado no pakage application :
-> Digite a quantidade de degraus : XXX
-> Retorna Escada com degraus.
+Dados à informar na classe Program(localizado no pakage application) :
+> RUN no program.main()
+> Solicitará que você: Digite a quantidade de degraus : XXX
+> Retornará Escada com degraus informados.
 
 
 
@@ -44,9 +45,10 @@ Saída:
 Explicação:
 Ela pode tornar a senha segura adicionando 3 caracteres, por exemplo, &ab, transformando a senha em Ya3&ab. 2 caracteres não são suficientes visto que a senha precisa ter um tamanho mínimo de 6 caracteres.
 
-Dados à informar na classe Program(localizado no pakage application :
-> Digite sua senha : XXXXXX.
-> Retorna quantidade caracteres e validação de senha.
+Dados à informar na classe Program(localizado no pakage application) :
+> RUN no program.main()
+> Solicitará que você: Digite sua senha : XXXXXX.
+> Retornará quantidade caracteres digitados e validação de senha conforme regra destacada acima.
 
 #### Questão 03
 Duas palavras podem ser consideradas anagramas de si mesmas se as letras de uma palavra podem ser realocadas para formar a outra palavra. Dada uma string qualquer, desenvolva um algoritmo que encontre o número de pares de substrings que são anagramas.
