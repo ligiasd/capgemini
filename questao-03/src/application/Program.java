@@ -7,6 +7,11 @@ import java.util.Scanner;
 public class Program {
 
     public static void main(String[] args) {
+        Anagrama anagrama = new Anagrama();
+        anagrama.calcular();
+    }
+
+    public static void main2(String[] args) {
         Scanner leitor = new Scanner(System.in);
         System.out.println("Digite o primeiro nome:");
         String nome1 = leitor.next();
