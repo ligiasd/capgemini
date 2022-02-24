@@ -64,6 +64,14 @@ Saída:
 
 Explicação:
 A lista de todos os anagramas pares são: [o, o], [ov, vo] que estão nas posições [[0, 2], [0, 1], [1, 2]] respectivamente.
+Resolução:
+Elaborado os metodos abaixo, na classe Anagrama:
+- digiteAPalavra: pede ao usuario para entrar com uma palavra;
+- mostra: mostra a palavra. A palavra é armazenada em um vetor para ficar mais facil o manuseio;
+- calculaAnagrama: recebe o vetor contendo a palavra e mostra para o usuario todas as possibilidades de anagrama com esta palavra;
+- trocaPosicao: Efetua a troca das posições desejadas;
+- quebraPalavra: Recebe a palavra e um vetor vazio e retorna o vetor contendo a palavra.
+  
 > Digite sua palavra : XXXXXX.
-> Retorna  os anagramas pares.
+> Retorna  os anagramas pares e contagem.
 
